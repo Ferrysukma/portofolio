@@ -6,6 +6,9 @@ import Footer from "../components/layout/Footer";
 export const metadata: Metadata = {
   title: "Portofolio | Ferry Sukma P",
   description: "Welcome to my portofolio",
+  icons: {
+    icon: "/globe.svg",
+  },
 };
 
 export default function RootLayout({

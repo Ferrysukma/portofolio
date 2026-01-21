@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ProfileImage from "../../../../public/assets/profile.png";
+import ProfileImage from "@/public/assets/profile.png";
 
 const HeroView = () => {
   return (
