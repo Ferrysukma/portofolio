@@ -29,7 +29,7 @@ const HeroView = () => {
               collaborative and vibrant environment with the opportunity to
               innovate and grow alongside talented professionals.
             </p>
-            <div className="mt-10 flex">
+            <div className="mt-10 block text-center lg:flex">
               <a
                 href="./assets/cv/CV.pdf"
                 download="CS_Ferry_Sukma_P.pdf"
@@ -48,7 +48,7 @@ const HeroView = () => {
               </a>
               <a
                 href="#contact"
-                className="flex items-center px-10 py-4 bg-transparent border border-teal-500 text-teal-500 hover:bg-teal-600 hover:text-white font-bold rounded-4xl ml-4 transition duration-300 ease-in-out"
+                className="flex items-center px-10 py-4 bg-transparent border border-teal-500 text-teal-500 hover:bg-teal-600 hover:text-white font-bold rounded-4xl transition duration-300 ease-in-out mt-4 lg:ml-4 lg:mt-0"
               >
                 <svg
                   role="img"

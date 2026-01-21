@@ -35,7 +35,7 @@ const AboutView = () => {
   return (
     <section id="contact" className="mt-15 py-10 relative">
       <div className="absolute -z-10 opacity-30 rotate-12 top-1/2 -translate-y-1/2 lg:left-1/2 lg:-translate-x-1/2">
-        <h1 className="text-5xl font-bold text-gray-400 lg:text-9xl">
+        <h1 className="text-6xl font-bold text-gray-400 lg:text-9xl">
           WHY HIRE ME
         </h1>
       </div>
