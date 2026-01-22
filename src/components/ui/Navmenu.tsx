@@ -12,8 +12,10 @@ const Navmenu = (props: Propstypes) => {
         <li className="group" key={item}>
           <a
             href={`#${item.toLowerCase()}`}
-            className={`text-gray-950 hover:text-teal-500 font-semibold py-2 flex mx-6 ${
-              section === item.toLowerCase() && "text-teal-500 font-bold"
+            className={`hover:text-teal-500 py-2 flex mx-6 ${
+              section === item.toLowerCase()
+                ? "text-teal-500 dark:text-teal-500 font-bold"
+                : "text-gray-950 dark:text-white font-semibold"
             }`}
           >
             {item}

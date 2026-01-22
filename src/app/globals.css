@@ -1,5 +1,33 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+.cube {
+  transform-style: preserve-3d;
+}
+
+.cube .front {
+  transform: rotateY(0deg) translateZ(100px);
+}
+
+.cube .right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.cube .back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.cube .left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.cube .top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.cube .bottom {
+  transform: rotateX(-90deg) translateZ(100px);
 }
