@@ -9,7 +9,7 @@ const HeroView = () => {
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
       <section
         id="home"
-        className="pt-6 pb-20 lg:pt-18 relative dark:bg-gray-950"
+        className="pt-14 pb-20 lg:pt-18 relative dark:bg-gray-950"
       >
         <div className="absolute opacity-20 rotate-12 top-50 left-1/2 -translate-x-1/2 lg:left-100 lg:top-1/2 lg:-translate-y-1/2">
           <CubeAnimation />

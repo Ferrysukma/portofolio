@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Cooperative",
+    "desc": "I`m a cooperative person and able to work well both in teams and individually. I`m accustomed to communicating openly, respecting the opinions of others, and actively contributing to achieving common goals. At work, I take responsibility for assigned tasks and am ready to assist colleagues when needed. This cooperative attitude helps me create a positive, effective, and mutually supportive work environment.",
+    "logo": "/assets/about/deal.png"
+  },
+  {
+    "id": 2,
+    "title": "Communicative",
+    "desc": "I`m a highly communicative individual, able to convey ideas, opinions, and information clearly and effectively. I `m accustomed to interacting with a variety of personalities, actively listening, and responding in an open and professional manner. These communication skills help me build strong working relationships, avoid misunderstandings, and support the achievement of shared goals within both teams and individuals.",
+    "logo": "/assets/about/chat.png"
+  },
+  {
+    "id": 3,
+    "title": "Workaholic",
+    "desc": "I` a hardworking individual with a strong commitment to carrying out every responsibility. I`m accustomed to working with discipline, diligence, and focus to achieve the best results. I don't give up easily when faced with challenges and always strive to complete tasks on time with maximum quality. This hardworking attitude drives me to continuously learn, develop, and make positive contributions in every job I undertake.",
+    "logo": "/assets/about/work.png"
+  },
+  {
+    "id": 4,
+    "title": "Experienced",
+    "desc": "I`m an experienced individual with over 5 years of experience in website creation and development. I` accustomed to working on a variety of website projects, from user interface (UI) design to developing responsive and user-friendly functionality. This experience enables me to understand user needs, optimize website performance, and ensure the final result meets the desired goals and standards. I` also able to work independently or in a team to complete website projects effectively and on time.",
+    "logo": "/assets/about/star.png"
+  }
+]

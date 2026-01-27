@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "DIP | Digital Property",
+    "logo": "/assets/pms/logo.png",
+    "desc": "The In-Hotel Experience Mobile Application from Digital Property is an integrated application between the hotel reservation system and the Property Management System (PMS) and POS System which provides convenience to guests in making reservations and makes it easier for guests to make orders such as room service, restaurants, laundry, etc. during their stay at the hotel. For example you can Login with username : kemudirental@gmail.com and password : demo",
+    "width": 200,
+    "url": "https://pms.dip.id/",
+    "tools": [
+      "/assets/skills/php.svg",
+      "/assets/skills/laravel.svg",
+      "/assets/skills/javascript.svg",
+      "/assets/skills/jquery.svg",
+      "/assets/skills/socketio.svg",
+      "/assets/skills/css.svg",
+      "/assets/skills/bootstrap.svg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "MediaHub POLRI",
+    "logo": "/assets/mediahub/logo.png",
+    "desc": "MediaHub is a platform that provides a variety of informative and educational content from the Indonesian National Police (POLRI) Public Relations Division. Key features include searching, downloading, and content personalization.",
+    "width": 300,
+    "url": "https://mediahub.polri.go.id/",
+    "tools": [
+      "/assets/skills/nextjs.svg",
+      "/assets/skills/react.svg",
+      "/assets/skills/javascript.svg",
+      "/assets/skills/typescript.svg",
+      "/assets/skills/css.svg",
+      "/assets/skills/tailwind.svg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Nazar | E-commerse",
+    "logo": "/assets/nazar/logo.png",
+    "desc": "Nazar.id is an Indonesian company engaged in the e-commerce business. Nazar.id entered the e-commerce industry with a distinct business concept and strategy, believed to be able to compete with existing e-commerce players. Nazar.id uses the C2C (Consumer to Consumer) concept such as Tokopedia or Bukalapak. Meanwhile, other e-commerce players generally use the B2C (Business to Buyer) and B2B (Business to Business) concepts such as currently Lazada, Shopee, Blibli, JD.id, and others.",
+    "width": 300,
+    "tools": [
+      "/assets/skills/php.svg",
+      "/assets/skills/laravel.svg",
+      "/assets/skills/javascript.svg",
+      "/assets/skills/css.svg",
+      "/assets/skills/bootstrap.svg",
+      "/assets/skills/firebase.svg",
+      "/assets/skills/jquery.svg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Immerseed",
+    "logo": "/assets/immerseed/logo.png",
+    "desc": "ImmerseEd is Educational Consultancy & Tour agency, specializing in transformative experiences from Indonesia to Australia. Catering to secondary school and high school students, as well as professionals, ImmerseEd a diverse range of programs designed to enrich learning, broaden horizons, and inspire growth.",
+    "width": 300,
+    "url": "https://immerseed.com/",
+    "tools": [
+      "/assets/skills/php.svg",
+      "/assets/skills/laravel.svg",
+      "/assets/skills/javascript.svg",
+      "/assets/skills/css.svg",
+      "/assets/skills/bootstrap.svg",
+      "/assets/skills/jquery.svg",
+      "/assets/skills/mysql.svg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Tuhar",
+    "logo": "/assets/tuhar/logo.png",
+    "desc": "Tuhar (Daily Handyman) by DPN Perkasa is an app that connects handymen and consumers. It provides professional handymen to meet the needs and services related to building, repairing, and renovating homes or buildings.",
+    "width": 300,
+    "tools": [
+      "/assets/skills/php.svg",
+      "/assets/skills/laravel.svg",
+      "/assets/skills/javascript.svg",
+      "/assets/skills/css.svg",
+      "/assets/skills/bootstrap.svg",
+      "/assets/skills/jquery.svg"
+    ]
+  }
+]

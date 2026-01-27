@@ -1,0 +1,104 @@
+[
+  [
+    {
+      "id": 1,
+      "title": "Next JS",
+      "type": "Front End Developer",
+      "url": "https://nextjs.org/",
+      "logo": "/assets/skills/nextjs.svg"
+    },
+    {
+      "id": 2,
+      "title": "Laravel",
+      "type": "Back End Developer",
+      "url": "https://laravel.com/",
+      "logo": "/assets/skills/laravel.svg"
+    },
+    {
+      "id": 3,
+      "title": "React JS",
+      "type": "Front End Developer",
+      "url": "https://react.dev/",
+      "logo": "/assets/skills/react.svg"
+    },
+    {
+      "id": 4,
+      "title": "Tailwind",
+      "type": "Front End Developer",
+      "url": "https://tailwindcss.com/",
+      "logo": "/assets/skills/tailwind.svg"
+    },
+    {
+      "id": 5,
+      "title": "CSS",
+      "type": "Front End Developer",
+      "url": "https://tailwindcss.com/",
+      "logo": "/assets/skills/css.svg"
+    },
+    {
+      "id": 6,
+      "title": "JQuery",
+      "type": "Front End Developer",
+      "url": "https://jquery.com/",
+      "logo": "/assets/skills/jquery.svg"
+    },
+    {
+      "id": 7,
+      "title": "Javascript",
+      "type": "Front & Back End",
+      "url": "https://www.javascript.com/",
+      "logo": "/assets/skills/javascript.svg"
+    }
+  ],
+  [
+    {
+      "id": 8,
+      "title": "Bootstrap",
+      "type": "Front End Developer",
+      "url": "https://getbootstrap.com/",
+      "logo": "/assets/skills/bootstrap.svg"
+    },
+    {
+      "id": 9,
+      "title": "PHP",
+      "type": "Back End Developer",
+      "url": "https://php.net/",
+      "logo": "/assets/skills/php.svg"
+    },
+    {
+      "id": 10,
+      "title": "MySql",
+      "type": "Database",
+      "url": "https://mysql.com/",
+      "logo": "/assets/skills/mysql.svg"
+    },
+    {
+      "id": 11,
+      "title": "PostgreSQL",
+      "type": "Database",
+      "url": "https://www.postgresql.org/",
+      "logo": "/assets/skills/postgresql.svg"
+    },
+    {
+      "id": 12,
+      "title": "Firebase",
+      "type": "Database",
+      "url": "http://firebase.google.com/",
+      "logo": "/assets/skills/firebase.svg"
+    },
+    {
+      "id": 13,
+      "title": "Socket.io",
+      "type": "Realtime Library",
+      "url": "https://socket.io/",
+      "logo": "/assets/skills/socketio.svg"
+    },
+    {
+      "id": 14,
+      "title": "Type Script",
+      "type": "Programming Language",
+      "url": "https://www.typescriptlang.org/",
+      "logo": "/assets/skills/typescript.svg"
+    }
+  ]
+]

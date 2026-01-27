@@ -1,6 +1,7 @@
 import { defineConfig, globalIgnores } from "eslint/config";
 import nextVitals from "eslint-config-next/core-web-vitals";
 import nextTs from "eslint-config-next/typescript";
+import nextPlugin from '@next/eslint-plugin-next';
 
 const eslintConfig = defineConfig([
   ...nextVitals,
@@ -13,6 +14,15 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  {
+    name: 'Next.js Custom Rules',
+    plugins: {
+      '@next/next': nextPlugin,
+    },
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'error',
+    },
+  }
 ]);
 
 export default eslintConfig;

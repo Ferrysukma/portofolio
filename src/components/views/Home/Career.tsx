@@ -4,40 +4,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
-import YPTLogo from "@/public/assets/career/ypt.webp";
-import PACLogo from "@/public/assets/career/pac.png";
-import FreelanceLogo from "@/public/assets/career/freelance.png";
 import Image from "next/image";
 import { motion } from "motion/react";
-
-const careers = [
-  {
-    id: 1,
-    title: "Full Stack Developer - Yayasan Pendidikan Telkom",
-    logo: YPTLogo,
-    size: 250,
-    link: "https://www.ypt.id/",
-    desc: "My first job as Full Stack Web Developer at Yayasan Pendidikan Telkom. I`m in the Human Capital division, the work I do is creating websites for companies and educational institutions. I`m also responsible for creating and maintaining web applications for YPT. Some of the products I have produced are SPPD applications, Campus and School Information Systems",
-    period: "2019 - 2020",
-  },
-  {
-    id: 2,
-    title: "Front End Developer - PT Sarana Pactindo",
-    logo: PACLogo,
-    size: 180,
-    link: "https://pactindo.com/",
-    desc: "In this company my main job is as a Front End Developer, my responsibility is create, maintaining and design web applications. One of the products I produce is a hotel information system, which is one of the largest hotel systems in Indonesia, with over 100 clients. I collaborate with various related stakeholders such as OTAs (Online Travel Agents) and banking services.",
-    period: "2020 - Now",
-  },
-  {
-    id: 3,
-    title: "Full Stack Developer - Freelance",
-    logo: FreelanceLogo,
-    size: 100,
-    desc: "As a freelancer, I have collaborated with companies and individuals to create website applications such as e-commerce, company profiles, and government applications. Some of my clients include the Indonesian National Police (POLRI), DPN Perkasa, PT Sarana Media Investama, and others.",
-  },
-];
-
+import CarrerJson from "@/src/database/career.json";
 const CareerView = () => {
   return (
     <section id="career" className="bg-gray-100 dark:bg-slate-950 py-20">
@@ -85,7 +54,7 @@ const CareerView = () => {
                   },
                 }}
               >
-                {careers.map((item) => (
+                {CarrerJson.map((item) => (
                   <SwiperSlide className="p-4 mt-6" key={item.id}>
                     <div className="relative w-full bg-white dark:bg-gray-900 rounded-2xl overflow-hidden group transition-all duration-500 hover:scale-105">
                       <div className="absolute inset-0 bg-linear-to-r from-teal-600 via-sky-600 to-lime-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur"></div>

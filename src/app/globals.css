@@ -31,3 +31,34 @@ body {
 .cube .bottom {
   transform: rotateX(-90deg) translateZ(100px);
 }
+.list-skills-left {
+  animation: scroll-left 25s linear infinite;
+}
+
+.list-skills-right {
+  animation: scroll-right 25s linear infinite;
+}
+
+.list-skills:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translate(-100%, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}

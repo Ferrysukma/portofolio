@@ -1,37 +1,7 @@
 "use client";
-import Chat from "@/public/assets/about/chat.png";
-import Deal from "@/public/assets/about/deal.png";
-import Star from "@/public/assets/about/star.png";
-import Work from "@/public/assets/about/work.png";
 import Image from "next/image";
 import { motion } from "motion/react";
-
-const abouts = [
-  {
-    id: 1,
-    title: "Cooperative",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt excepturi fugit nam incidunt animi neque? Unde voluptate ut voluptatibus!",
-    logo: Deal,
-  },
-  {
-    id: 2,
-    title: "Communicative",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt excepturi fugit nam incidunt animi neque? Unde voluptate ut voluptatibus!",
-    logo: Chat,
-  },
-  {
-    id: 3,
-    title: "Workaholic",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt excepturi fugit nam incidunt animi neque? Unde voluptate ut voluptatibus!",
-    logo: Work,
-  },
-  {
-    id: 4,
-    title: "Experienced",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt excepturi fugit nam incidunt animi neque? Unde voluptate ut voluptatibus!",
-    logo: Star,
-  },
-];
+import AboutJson from "@/src/database/about.json";
 
 const AboutView = () => {
   return (
@@ -48,7 +18,7 @@ const AboutView = () => {
               Why Hire Me
             </h1>
             <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
-              {abouts.map((item) => (
+              {AboutJson.map((item) => (
                 <div className="block group p -6" key={item.id}>
                   <motion.ul
                     animate={{ rotate: 360 }}
@@ -67,7 +37,7 @@ const AboutView = () => {
                       />
                     </div>
                     <div className="w-full mt-6">
-                      <h2 className="text-center text-xl font-semibold text-teal-500 mb-2">
+                      <h2 className="text-center text-xl font-semibold text-teal-500 mb-2 lg:text-2xl">
                         {item.title}
                       </h2>
                       <p className="text-sm text-gray-600 dark:text-slate-300 text-justif lg:text-base dark:group-hover:text-white">
