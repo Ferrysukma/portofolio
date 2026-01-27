@@ -49,7 +49,7 @@ const ProjectView = () => {
                     </div>
                     <div className="w-full flex justify-center mt-10 lg:w-3/12 lg:mt-0">
                       <div className="lg:self-center">
-                        {item.url ? (
+                        {item.url && (
                           <a
                             href={item.url}
                             target="_blank"
@@ -57,10 +57,6 @@ const ProjectView = () => {
                           >
                             Go to Website
                           </a>
-                        ) : (
-                          <button className="bg-teal-500 text-white px-10 py-2 text-center rounded-3xl text-base cursor-pointer lg:text-lg lg:py-4 lg:px-16 lg:font-bold">
-                            Detail
-                          </button>
                         )}
                       </div>
                     </div>
