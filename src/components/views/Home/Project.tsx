@@ -18,7 +18,7 @@ const ProjectView = () => {
                     className="border border-teal-600 dark:border-teal-700 shadow-xl rounded-xl p-6 mb-5 cursor-pointer group transition-all duration-500 hover:scale-105 lg:flex hover:bg-teal-700 lg:flex-wrap"
                     key={item.id}
                   >
-                    <div className="relative mb-4 lg:w-3/12 lg:mb-0">
+                    <div className="relative mb-4 h-30 lg:w-3/12 lg:mb-0 lg:h-50">
                       <Image
                         src={item.logo}
                         alt="PMS"
@@ -47,7 +47,7 @@ const ProjectView = () => {
                         ))}
                       </div>
                     </div>
-                    <div className="w-full flex justify-center lg:w-3/12">
+                    <div className="w-full flex justify-center mt-10 lg:w-3/12 lg:mt-0">
                       <div className="lg:self-center">
                         {item.url ? (
                           <a
