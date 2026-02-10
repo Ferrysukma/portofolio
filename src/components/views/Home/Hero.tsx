@@ -45,8 +45,8 @@ const HeroView = () => {
               </p>
               <div className="mt-10 block text-center lg:flex">
                 <a
-                  href="./assets/cv/CV_FERRY_SUKMA_P_NEW.pdf"
-                  download="CS_FERRY_SUKMA_P_NEW.pdf"
+                  href="./assets/cv/CV_FERRY_SUKMA_P.pdf"
+                  download="CS_FERRY_SUKMA_P.pdf"
                   className="flex items-center px-10 py-4 bg-teal-500 text-white font-bold rounded-4xl hover:bg-teal-600 transition duration-300 ease-in-out"
                 >
                   <svg
